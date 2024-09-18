@@ -4,12 +4,12 @@ python-dotenv==1.0.0
 PyPDF2==3.0.1
 python-docx==0.8.11
 python-pptx==0.6.21
-Pillow==8.4.0  # Older stable version to avoid wheel build issues
+Pillow==8.4.0  # Older version to avoid build issues
 streamlit==1.23.1
 openai==0.27.0
 altair==4.2.2
-tiktoken==0.2.0  # Stable version that avoids wheel build errors
+tiktoken==0.2.0  # Prebuilt version to avoid Rust compiler issues
 huggingface-hub==0.15.1
 sentence-transformers==2.2.2
-tokenizers==0.10.3  # Compatible version to avoid build issues
+tokenizers==0.10.3  # Compatible version to avoid Rust compiler issues
 pydantic==1.10.2
